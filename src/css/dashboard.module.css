@@ -1,0 +1,137 @@
+.main {
+  min-height: 80vh;
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.main > h3 {
+  margin-left: 20px;
+}
+
+.main > h3 > span {
+  color: green;
+  text-transform: capitalize;
+}
+
+.main > section > div {
+  width: 90%;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 500px;
+  position: relative;
+}
+
+.main > section > div:hover {
+  background-color: white;
+  box-shadow: 1px 1px 3px black;
+}
+
+.main > section > div > h3 {
+  color: green;
+}
+
+.main > section > div > input {
+  margin-right: 10px;
+  accent-color: green;
+}
+
+.main > section > div > article {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+}
+
+.main > section > div > article > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 25px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 200ms ease;
+}
+
+.main > section > div:hover > article {
+  display: block;
+}
+
+.main > section > div > article > :first-child {
+  color: red;
+}
+
+.main > section > div > article > :first-child:hover {
+  background-color: red;
+  color: white;
+}
+
+.main > section > div > article > :last-child {
+  color: green;
+}
+
+.main > section > div > article > :last-child:hover {
+  background-color: green;
+  color: white;
+}
+
+.main > article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: fit-content;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  /* background-color: yellow; */
+  margin: auto;
+}
+
+.main > article > button {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main > article > aside {
+  display: flex;
+}
+
+.main > article > aside > span {
+  width: 25px;
+  aspect-ratio: 1;
+  font-size: 14px;
+  /* background-color: red; */
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid green;
+  color: green;
+}
+
+.main > article > aside > span.current {
+  background-color: green;
+  color: white;
+}
+
+/* .current {
+  background-color: green;
+  color: white;
+} */
+
+/* .test {
+  background-color: aqua;
+} */

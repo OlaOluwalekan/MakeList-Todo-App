@@ -1,0 +1,53 @@
+.main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > form {
+  width: 90%;
+  max-width: 500px;
+  background-color: green;
+  /* text-align: center; */
+  padding: 30px 15px;
+}
+
+.main > form > h2 {
+  text-align: center;
+  color: goldenrod;
+  margin-bottom: 15px;
+}
+
+.main > form > input[type='email'],
+input[type='password'],
+input[type='text'] {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: none;
+}
+
+.main > form > input:focus {
+  outline: none;
+}
+
+.main > form > input[type='checkbox'] {
+  accent-color: #055005;
+  margin-right: 10px;
+}
+
+.main > form > label {
+  color: white;
+}
+
+.main > form > button {
+  width: 100%;
+  margin: 10px 0;
+  border: none;
+  background-color: white;
+  color: green;
+  font-size: 16px;
+  padding: 7px 0;
+  cursor: pointer;
+}

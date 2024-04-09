@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > section {
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header > section > h1 {
+  color: green;
+}
+
+.header > section > h1 > span {
+  color: goldenrod;
+}
+
+.header nav {
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.header nav > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header nav > button {
+  background: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .header nav {
+    min-width: 250px;
+  }
+}
+
+@media screen and (min-width: 574px) {
+  .header > section {
+    justify-content: space-between;
+  }
+
+  .header nav {
+    justify-content: flex-end;
+  }
+}
+
+.footer {
+  min-height: 90px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
